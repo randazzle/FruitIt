@@ -420,10 +420,10 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0982cf9e38c68b94cbd9f822dc2d429d, type: 3}
+    m_Font: {fileID: 12800000, guid: d3693152bb7d93641ab539c60a56fc7e, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
     m_Alignment: 4
@@ -566,7 +566,7 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: ded9d17521bf18a458b8b61e79c59280,
+      objectReference: {fileID: 12800000, guid: d3693152bb7d93641ab539c60a56fc7e,
         type: 3}
     - target: {fileID: 114248259567942822, guid: dadbd1e92c81c924faf3fa6075b5cbeb,
         type: 2}
@@ -582,6 +582,25 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_FontStyle
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114248259567942822, guid: dadbd1e92c81c924faf3fa6075b5cbeb,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 114248259567942822, guid: dadbd1e92c81c924faf3fa6075b5cbeb,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.59607846
+      objectReference: {fileID: 0}
+    - target: {fileID: 114248259567942822, guid: dadbd1e92c81c924faf3fa6075b5cbeb,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.10980393
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173198896826040, guid: dadbd1e92c81c924faf3fa6075b5cbeb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dadbd1e92c81c924faf3fa6075b5cbeb, type: 2}
@@ -827,10 +846,10 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ded9d17521bf18a458b8b61e79c59280, type: 3}
+    m_Font: {fileID: 12800000, guid: d3693152bb7d93641ab539c60a56fc7e, type: 3}
     m_FontSize: 120
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 120
     m_Alignment: 4
@@ -1325,10 +1344,10 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 63d68c43a479ee947afa8ce502037731, type: 3}
+    m_Font: {fileID: 12800000, guid: d3693152bb7d93641ab539c60a56fc7e, type: 3}
     m_FontSize: 80
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 100
     m_Alignment: 4
@@ -1402,7 +1421,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: defc617be9d4b5e45a0e641345d971a3, type: 3}
     m_FontSize: 150
     m_FontStyle: 1
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 150
     m_Alignment: 4
@@ -1542,7 +1561,7 @@ Prefab:
         type: 2}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: ded9d17521bf18a458b8b61e79c59280,
+      objectReference: {fileID: 12800000, guid: d3693152bb7d93641ab539c60a56fc7e,
         type: 3}
     - target: {fileID: 114248259567942822, guid: dadbd1e92c81c924faf3fa6075b5cbeb,
         type: 2}
@@ -1742,7 +1761,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: fa6691e4ae2a8224a9ffedf741473f00, type: 3}
+    m_Font: {fileID: 12800000, guid: d3693152bb7d93641ab539c60a56fc7e, type: 3}
     m_FontSize: 180
     m_FontStyle: 0
     m_BestFit: 0
@@ -1903,7 +1922,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ae6fe1671e5266548ab7e5cea6d30cfc, type: 3}
+    m_Font: {fileID: 12800000, guid: d3693152bb7d93641ab539c60a56fc7e, type: 3}
     m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
@@ -1993,7 +2012,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 63d68c43a479ee947afa8ce502037731, type: 3}
+    m_Font: {fileID: 12800000, guid: d3693152bb7d93641ab539c60a56fc7e, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0

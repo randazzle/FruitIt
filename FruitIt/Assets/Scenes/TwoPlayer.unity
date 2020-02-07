@@ -192,7 +192,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379611692
 GameObject:
@@ -257,7 +257,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &572027015
 GameObject:
@@ -289,6 +289,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f749007fba9a7d4aaa7a62ba4f156e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restartButton: {fileID: 0}
+  gameOver: {fileID: 0}
+  gameOverScore: {fileID: 0}
+  yourScore: {fileID: 0}
+  highScoreText: {fileID: 0}
+  highScore: {fileID: 0}
+  Score: {fileID: 0}
+  Crosshair: {fileID: 0}
+  resetScore: {fileID: 0}
 --- !u!114 &572027017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,7 +407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 155.4, y: 268.7}
+  m_AnchoredPosition: {x: 139.6, y: 234.3}
   m_SizeDelta: {x: 31.9, y: 29.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722263959
@@ -545,9 +554,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphere: {fileID: 0}
+  angularVelocity: 0
   angularVelocity1: 60
   angularVelocity2: 120
-  angularVelocity3: 240
   time: 0
   MinDuration: 2
   MaxDuration: 6
